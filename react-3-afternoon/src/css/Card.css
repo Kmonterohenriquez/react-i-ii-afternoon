@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap");
+* {
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.sm-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.App-container {
+  background: #222222;
+  height: 100vh;
+}
+
+.Card-container {
+  margin-top: 120px;
+}
+
+.Card-container .content {
+  background: white;
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.Card-container .content .name {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #34a5da;
+  border-radius: 3;
+  width: 330px;
+}
+
+.Card-container .content p {
+  line-height: 25px;
+}
+
+.Card-container .content strong {
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+.Card-container .content .employer {
+  margin-bottom: 30px;
+}
+
+.Card-container .content li {
+  list-style: none;
+  margin-left: 40px;
+}
+/*# sourceMappingURL=Card.css.map */

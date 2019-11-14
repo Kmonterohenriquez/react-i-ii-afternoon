@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+$blue: #34a5da
+
+*
+    margin: 0
+    font-family: 'M PLUS Rounded 1c', sans-serif
+    
+@mixin container($max-width)
+    margin: 0 auto
+    width: 80%
+    max-width: $max-width
+
+.sm-container
+    @include container( 800px )
+
+.container
+    @include container( 1000px )
+
+
+.App-container
+    background: #222222
+    height: 100vh

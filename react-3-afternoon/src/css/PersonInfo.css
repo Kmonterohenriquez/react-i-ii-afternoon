@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap");
+* {
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.sm-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.App-container {
+  background: #222222;
+  height: 100vh;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-container button {
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-style: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  background: transparent;
+  padding: 7px 13px;
+  font-size: 1.1rem;
+}
+
+.btn-container i {
+  margin: 0 7px;
+}
+
+.btn-container .center-btn button {
+  font-size: .8rem;
+  margin-left: 10px;
+  background: #34a5da;
+}
+/*# sourceMappingURL=PersonInfo.css.map */
