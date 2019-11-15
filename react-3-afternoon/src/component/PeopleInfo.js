@@ -32,7 +32,7 @@ class PeopleInfo extends Component {
         return (
             <div className='container'>
                 {/* {people[0].title} */}
-                <Card person={people[this.state.i]} index={this.state.i}/>
+                <Card curr={this.state.i} person={people[this.state.i]} index={this.state.i} people={this.state.people}/>
                 <div className='btn-container'>
                     <button disabled={disabledPrev} name='previous' onClick={this.handleClick}><i className="fas fa-angle-left"></i>Previous</button>
                     <div className='center-btn'>

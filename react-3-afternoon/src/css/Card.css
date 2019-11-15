@@ -29,6 +29,7 @@
   background: white;
   padding: 60px;
   border-radius: 10px;
+  position: relative;
 }
 
 .Card-container .content .name {
@@ -36,6 +37,14 @@
   border-bottom: 2px solid #34a5da;
   border-radius: 3;
   width: 330px;
+}
+
+.Card-container .content .counter {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
 
 .Card-container .content p {

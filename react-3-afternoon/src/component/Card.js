@@ -9,7 +9,7 @@ class Card extends Component {
         return (
             <div className='Card-container '>
                 <div className='content sm-container'>
-        <p className='counter'></p>
+        <p className='counter'>{this.props.curr+1}/{this.props.people.length}</p>
                     <h1 className='name'>{person.name.first} {person.name.last}</h1>
                     <p className='from'><strong>From:</strong> {person.city}, {person.country}</p>
                     <p className='job_title'><strong>Job Title:</strong> {person.title}</p>
